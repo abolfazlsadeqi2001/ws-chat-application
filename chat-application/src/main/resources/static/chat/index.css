@@ -1,0 +1,23 @@
+.message-container {
+	width : 60%;
+	height:100%;
+	
+	float : left;
+}
+
+.sending-container {
+	width : 40%;
+	height:100%;
+	
+	float : left;
+}
+
+textarea {
+	width : 100%;
+	height : 600px;
+}
+
+input[type='button'] {
+	width : 100%;
+	height : 70px;
+}

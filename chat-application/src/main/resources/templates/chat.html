@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		<meta name="author" content="abolfazlsadeqi2001" />
+		<meta name="description" content="chat room" />
+		<meta name="keywords" content="chat,room" />
+		<meta name="view-port" content="wdith=device-width,initiale-scale=1.0" />
+		
+		<meta http-equiv="content-type" content="text/html" />
+		
+		<title>chat</title>
+		
+		<link href="chat/index.css" rel="stylesheet" />
+		<script type="text/javascript" src="chat/index.js"></script>
+	</head>
+	<body>
+		<input type="hidden" th:value="${name}" />
+		<div class="message-container"></div>
+		<div class="sending-container">
+			<textarea></textarea>
+			<input type="button" value="button" onclick="send()" />
+		</div>
+	</body>
+</html>
